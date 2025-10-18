@@ -8,7 +8,7 @@ A proposta é oferecer uma experiência visual agradável, apresentando os produ
 
 ## 🌟 Demonstração
 
-> ✨ **Em breve:** link para visualização online (ex: GitHub Pages ou Vercel)
+> doce-arte-aqrtuo912-kamark14s-projects.vercel.app
 
 ---
 
