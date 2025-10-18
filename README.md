@@ -8,7 +8,7 @@ A proposta é oferecer uma experiência visual agradável, apresentando os produ
 
 ## 🌟 Demonstração
 
-> doce-arte-aqrtuo912-kamark14s-projects.vercel.app
+doce-arte-aqrtuo912-kamark14s-projects.vercel.app
 
 ---
 
