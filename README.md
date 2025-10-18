@@ -65,8 +65,6 @@ Exemplo:
 
 ✉️ Adicionar formulário de contato funcional
 
-🧑‍💻 Autor
-
-Feito com ❤️ por Seu Nome
+🧑‍💻 Autor: KaMark14
 
 Se gostou do projeto, deixe uma ⭐ no repositório!
