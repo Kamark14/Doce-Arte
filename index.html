@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Doce Arte - Doces Artesanais Feitos com Amor">
+    <meta name="keywords" content="doces, artesanais, sobremesas, confeitaria, bolos, brigadeiros, cupcakes">
+    <title>Doce Arte - Doces Artesanais</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <!-- Header e Navegação -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Doce<span>Arte</span></a>
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#products">Produtos</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#encomendar">Encomendar</a></li>
+                    <li id="user-btn" class="user-btn"><i class="fas fa-user"></i></li>
+                    <li class="search" style="list-style: none;">
+                        <input type="text" id="search-input" placeholder="Buscar...">
+                        <i class="fas fa-search"></i>
+                    </li>
+                    <li class="cart-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-count">0</span>
+                    </li>
+                </ul>
+
+                <div class="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Doces Artesanais Feitos com Amor</h1>
+            <p>Descubra nossos deliciosos doces feitos à mão com ingredientes selecionados e muito carinho.</p>
+            <a href="#products" class="btn">Ver Produtos</a>
+        </div>
+    </section>
+
+    <!-- Produtos -->
+    <section id="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Doces</h2>
+                <p>Conheça nossa seleção de doces artesanais, cada um feito com técnicas tradicionais e ingredientes de
+                    qualidade.</p>
+            </div>
+            <div class="products-container" id="products-container">
+                <!-- Os produtos serão gerados via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sobre Nós</h2>
+                <p>Conheça a história por trás da Doce Arte</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Fundada em 2015, a Doce Arte nasceu do sonho de transformar momentos especiais em experiências
+                        doces e memoráveis. Nossa missão é criar doces que não apenas satisfaçam o paladar, mas que
+                        também contem histórias e despertem emoções.</p>
+                    <br>
+                    <p>Utilizamos apenas ingredientes selecionados, priorizando produtos locais e sazonais. Cada doce é
+                        cuidadosamente preparado à mão, seguindo receitas que mesclam tradição e inovação.</p>
+                    <br>
+                    <p>Nossa equipe de confeiteiros apaixonados está sempre em busca de novas inspirações para
+                        surpreender nossos clientes com sabores únicos e apresentações encantadoras.</p>
+                    <br>
+                    <a href="#contact" class="btn">Entre em Contato</a>
+                </div>
+                <div class="about-image"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Entre em Contato</h2>
+                <p>Tem alguma dúvida ou pedido especial? Fale conosco!</p>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Assunto</label>
+                    <input type="text" id="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>        
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Doce Arte</h3>
+                    <p>Doces artesanais feitos com amor e ingredientes selecionados para tornar seus momentos mais
+                        doces.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#products">Produtos</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>Rua dos Doces, 123</li>
+                        <li>São Paulo, SP</li>
+                        <li>(11) 9999-9999</li>
+                        <li>contato@docearte.com</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&#xae; 2025 Doce Arte. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Carrinho de Compras -->
+    <div class="overlay" id="overlay"></div>
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Seu Carrinho</h3>
+            <button class="close-cart" id="close-cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Itens do carrinho serão adicionados aqui -->
+        </div>
+        <div class="cart-total" id="cart-total">Total: R$ 0,00</div>
+        <button class="checkout-btn">Finalizar Compra</button>
+    </div>
+
+    <!-- Auth Modal -->
+    <div class="auth-overlay" id="auth-overlay"></div>
+    <div class="auth-modal" id="auth-modal" aria-hidden="true">
+        <button class="auth-close" id="auth-close">&times;</button>
+        <div class="auth-tabs">
+            <button class="tab active" data-tab="login">Entrar</button>
+            <button class="tab" data-tab="register">Cadastrar</button>
+        </div>
+        <div class="auth-content">
+            <form id="login-form" class="auth-form">
+                <div class="form-group">
+                    <label for="login-email">E-mail</label>
+                    <input type="email" id="login-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Senha</label>
+                    <input type="password" id="login-password" required>
+                </div>
+                <button type="submit" class="btn">Entrar</button>
+            </form>
+
+            <form id="register-form" class="auth-form hidden">
+                <div class="form-group">
+                    <label for="reg-name">Nome</label>
+                    <input type="text" id="reg-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-email">E-mail</label>
+                    <input type="email" id="reg-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-password">Senha</label>
+                    <input type="password" id="reg-password" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-confirm-password">Confirmar Senha</label>
+                    <input type="password" id="reg-confirm-password" required>
+                </div>
+                <button type="submit" class="btn">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- User Modal -->
+    <div class="user-overlay" id="user-overlay"></div>
+    <div class="user-modal" id="user-modal" aria-hidden="true">
+        <button class="user-close" id="user-close">&times;</button>
+        <div class="container">
+            <div class="section-title">
+                <h2>Minha Conta</h2>
+                <p>Visualize seus dados e pedidos realizados</p>
+            </div>
+            <div class="user-panel modal-content">
+                <div class="user-info">
+                    <h3 id="user-name">Usuário</h3>
+                    <p id="user-email">email@exemplo.com</p>
+                    <button id="logout-btn" class="btn">Sair</button>
+                </div>
+                <div class="user-orders">
+                    <h3>Meus Pedidos</h3>
+                    <div id="orders-list">
+                        <!-- pedidos serão inseridos aqui -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Font Awesome para ícones -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
