@@ -15,7 +15,7 @@ A proposta é oferecer uma experiência visual agradável, apresentando os produ
 ## 📂 Estrutura do Projeto
 
 
-
+```
 Doce Arte/
 ├── index.html # Página principal do site
 ├── assets/
@@ -24,7 +24,7 @@ Doce Arte/
 │ └── js/
 │ └── script.js # Funcionalidades interativas
 └── README.md
-
+```
 
 ---
 
